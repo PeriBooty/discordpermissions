@@ -1,4 +1,3 @@
-let fs = require('fs');
 module.exports = {
     getPermissions: (path, method) => {
         let pattern = /(\/api\/v[6|7]\/)?((\w+\/?|\d+\/?)+)/;
